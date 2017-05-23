@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="pane1" fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="692.0" prefWidth="986.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button id="server1" fx:id="server1" layoutX="267.0" layoutY="40.0" mnemonicParsing="false" onAction="#server1ButtonListener" text="Server1" />
+      <Button id="server2" fx:id="server2" layoutX="507.0" layoutY="40.0" mnemonicParsing="false" onAction="#server2ButtonListener" text="Server2" />
+      <Button id="server3" fx:id="server3" layoutX="767.0" layoutY="40.0" mnemonicParsing="false" onAction="#server3ButtonListener" text="Server3" />
+      <Button id="button1" fx:id="button1" layoutX="33.0" layoutY="143.0" mnemonicParsing="false" onAction="#button1ButtonListener" text="Generate documents" />
+      <Button id="button2" fx:id="button2" layoutX="35.0" layoutY="289.0" mnemonicParsing="false" onAction="#button2ButtonListener" text="Query documents" />
+      <Button id="button3" fx:id="button3" layoutX="38.0" layoutY="421.0" mnemonicParsing="false" onAction="#button3ButtonListener" text="Check consistency" />
+      <TextArea id="textArea" fx:id="textArea" layoutX="209.0" layoutY="120.0" prefHeight="532.0" prefWidth="734.0" />
+   </children>
+</Pane>
